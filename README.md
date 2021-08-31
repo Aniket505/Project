@@ -15,12 +15,12 @@ A library containing various searching and sorting functions to search and sort 
 ### Time & Space Complexity
 Algorithm | | Time Complexity | | Space Complexity
 | :--- | ---: | ---: | ---: | ---:
---------- | Best Case | Average Case | Worst Case |
-Bubble Sort  | O() | Content Cell
-Selection Sort | Content Cell | Content Cell
-Insertion Sort  | Content Cell | Content Cell
-Merge Sort | O(N log N) | O(N)
-Quick Sort  | Content Cell | Content Cell
+. | Best Case | Average Case | Worst Case |
+Bubble Sort  | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1)
+Selection Sort | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1)
+Insertion Sort  | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1)
+Merge Sort | O(nlogn) | O(nlogn) | O(nlogn) | O(n)
+Quick Sort  | O(nlogn) | O(nlogn) | O(n<sup>2</sup>) | O(logn)
 
 ## SEARCHING
 **Searching** is an operation or a technique that helps finds the place of a given element or value in the list. Any search is said to be successful or unsuccessful depending upon whether the element that is being searched is found or not.
