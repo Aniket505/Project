@@ -49,7 +49,14 @@ Linear Search  | O(1) | O(n) | O(n) | O(1)
 Binary Search | O(1) | O(logn) | O(logn) | O(1)
 
 ## Specifications
-To be updated
+* **sort_search.h** is the library which contains the functions of various sorting and searching algorithms.
 
 ## Design
-To be updated
+* Used function pointers to make code generic.
+* Used comparator functions to compare various datatypes and structures.
+
+## Requirements
+* Any C/C++ Compiler would work.
+
+## Implementation
+* All files are implemented using C language.
