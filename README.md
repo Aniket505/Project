@@ -36,3 +36,10 @@ This is the **simplest** method for searching. In this technique of searching, t
 ### Binary Search
 Binary search is a **very fast** and **efficient** searching technique. **It requires the list to be in sorted order.** In this method, to search an element you can compare it with the present element at the center of the list. If it matches, then the search is successful otherwise the list is divided into two halves : one from the 0th element to the middle element which is the center element (first half) another from the center element to the last element (which is the 2nd half) where all values are greater than the center element.<br>
 The searching mechanism proceeds from either of the two halves depending upon whether the target element is greater or smaller than the central element. If the element is smaller than the central element, then searching is done in the first half, otherwise searching is done in the second half.
+
+### Time & Space Complexity
+Algorithm | | Time Complexity | | Space Complexity |
+| :--- | ---: | ---: | ---: | ---:
+| | Best Case | Average Case | Worst Case | |
+Linear Search  | O(1) | O(n) | O(n) | O(1)
+Binary Search | O(1) | O(logn) | O(logn) | O(1)
