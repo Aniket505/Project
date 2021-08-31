@@ -15,7 +15,7 @@ A library containing various searching and sorting functions to search and sort 
 ### Time & Space Complexity
 Algorithm | | Time Complexity | | Space Complexity
 | :--- | ---: | ---: | ---: | ---:
-. | Best Case | Average Case | Worst Case |
+| | Best Case | Average Case | Worst Case |
 Bubble Sort  | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1)
 Selection Sort | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1)
 Insertion Sort  | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1)
