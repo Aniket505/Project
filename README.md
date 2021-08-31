@@ -17,3 +17,8 @@ A library containing various searching and sorting functions to search and sort 
 * Some of the standard searching technique that is being followed in the data structure is listed below :
    * **Linear Search** or **Sequential Search**
    * **Binary Search**
+
+### Linear Search
+This is the **simplest** method for searching. In this technique of searching, the element to be found in searching the elements to be found is searched sequentially in the list. This method can be performed on a **sorted** or an **unsorted** list.<br> 
+* In case of a **sorted list** searching starts from first element and continues until the element is found from the list or the element whose value is greater than (assuming the list is sorted in ascending order), the value being searched is reached.
+* Searching in case of **unsorted list** also begins from the first element and continues until the element or the end of the list is reached.
