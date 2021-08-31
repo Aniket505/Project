@@ -13,7 +13,7 @@ A library containing various searching and sorting functions to search and sort 
    * **Quick Sort** - A sorting algorithm which divides the elements into two subsets and again sorts recursively.<br>
  
 ### Time & Space Complexity
-Algorithm | Time Complexity | | | Space Complexity
+Algorithm | Time Complexity | Space Complexity
 | :--- | ---: | ---: | ---: | ---:
 . | Best Case | Average Case | Worst Case |
 Bubble Sort  | O() | Content Cell
