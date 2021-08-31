@@ -2,6 +2,10 @@
 
 A library containing various searching and sorting functions to search and sort a list according to the given comparator function.
 
+## GOALS
+* To provide flexibilty to use sorting and searching algorithms in various projects and coding problems in c language.
+* To search and sort list of any datatype.
+
 ## SORTING
 **Sorting** is a process of ordering individual elements of a list according to their proper rank, either in ascending or descending order.<br>
 * A programming logic with few steps which can sort a bunch of elements are called sorting algorithms.<br>
