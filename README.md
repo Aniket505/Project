@@ -15,7 +15,7 @@ A library containing various searching and sorting functions to search and sort 
 ### Time & Space Complexity
 Algorithm | | Time Complexity | | Space Complexity
 | :--- | ---: | ---: | ---: | ---:
-. | Best Case | Average Case | Worst Case |
+--------- | Best Case | Average Case | Worst Case |
 Bubble Sort  | O() | Content Cell
 Selection Sort | Content Cell | Content Cell
 Insertion Sort  | Content Cell | Content Cell
