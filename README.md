@@ -20,5 +20,9 @@ A library containing various searching and sorting functions to search and sort 
 
 ### Linear Search
 This is the **simplest** method for searching. In this technique of searching, the element to be found in searching the elements to be found is searched sequentially in the list. This method can be performed on a **sorted** or an **unsorted** list.<br> 
-* In case of a **sorted list** searching starts from first element and continues until the element is found from the list or the element whose value is greater than (assuming the list is sorted in ascending order), the value being searched is reached.
-* Searching in case of **unsorted list** also begins from the first element and continues until the element or the end of the list is reached.
+* In case of a **sorted list** searching starts from 0th element and continues until the element is found from the list or the element whose value is greater than (assuming the list is sorted in ascending order), the value being searched is reached.
+* Searching in case of **unsorted list** also begins from the 0th element and continues until the element or the end of the list is reached.
+
+### Binary Search
+Binary search is a **very fast** and **efficient** searching technique. **It requires the list to be in sorted order.** In this method, to search an element you can compare it with the present element at the center of the list. If it matches, then the search is successful otherwise the list is divided into two halves : one from the 0th element to the middle element which is the center element (first half) another from the center element to the last element (which is the 2nd half) where all values are greater than the center element.<br>
+The searching mechanism proceeds from either of the two halves depending upon whether the target element is greater or smaller than the central element. If the element is smaller than the central element, then searching is done in the first half, otherwise searching is done in the second half.
