@@ -11,6 +11,16 @@ A library containing various searching and sorting functions to search and sort 
    * **Insertion Sort** - A sorting algorithm which selects one element from the array and is compared to the one side of the array. Element is inserted to the proper position while shifting others.<br>
    * **Merge Sort** - A sorting algorithm which divides the elements to subgroups and then merges back to make a sorted.<br>
    * **Quick Sort** - A sorting algorithm which divides the elements into two subsets and again sorts recursively.<br>
+ 
+### Time & Space Complexity
+Algorithm | Time Complexity | | | Space Complexity
+| :--- | ---: | ---: | ---: | :---:
+ | Best Case | Average Case | Worst Case |
+Bubble Sort  | O() | Content Cell
+Selection Sort | Content Cell | Content Cell
+Insertion Sort  | Content Cell | Content Cell
+Merge Sort | O(N log N) | O(N)
+Quick Sort  | Content Cell | Content Cell
 
 ## SEARCHING
 **Searching** is an operation or a technique that helps finds the place of a given element or value in the list. Any search is said to be successful or unsuccessful depending upon whether the element that is being searched is found or not.
