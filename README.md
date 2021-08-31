@@ -47,3 +47,9 @@ Algorithm | | Time Complexity | | Space Complexity |
 | | Best Case | Average Case | Worst Case | |
 Linear Search  | O(1) | O(n) | O(n) | O(1)
 Binary Search | O(1) | O(logn) | O(logn) | O(1)
+
+## Specifications
+To be updated
+
+## Design
+To be updated
