@@ -54,7 +54,7 @@ Binary Search | O(1) | O(logn) | O(logn) | O(1)
 * **sort_search.h** is the library which contains the functions of various sorting and searching algorithms.
 
 ## Design
-* Used function pointers to make code generic.
+* Used function pointers and void pointers to make code generic.
 * Used comparator functions to compare various datatypes and structures.
 
 ## Requirements
