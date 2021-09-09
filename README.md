@@ -14,14 +14,17 @@ A library containing various searching and sorting functions to search and sort 
    (This will automatically compile the files and make static library( _mylib.a ) )<br>
 - - - -   
 ### How To Use Sorting Functions ? ###
-   To use the sorting functions you have to write **comparator function** for the datatype you have to sort.
+   To use the sorting functions you have to write **comparator function** for the datatype you have to sort.<br>
+   **Make a double pointer array and store the addresses of the elements of the array to be sorted in it.**<br>
+   Pass that array through the functions listed below to sort the array
    
    * **Merge Sort**      :  merge_sort((void **)a, int starting_index, int ending_index, (void **)b, int(*cmp)(void *, void *));** 
    * **Quick Sort**      :  q_sort((void **)a, int starting_index, int ending_index, int(*cmp)(void *, void *));**
    * **Bubble Sort**     :  bubble_sort((void **)a, int size, int(*cmp)(void *, void *));**
    * **Insertion Sort**  :  insertion_sort((void **)a, int size, int(*cmp)(void *, void *));**
 ### How To Use Searching Functions ? ###
-   To use the sorting functions you have to write **comparator function** for the datatype you have to search.
+   To use the searching functions you have to write **comparator function** for the datatype you have to search.
+   Pass the array through the functions listed below to search any element from the list.
    * **Binary Search**   :  binary_search(void *a, void *key, int starting_index, int ending_index, int(*cmp)(void *, void *, int));
    * **Linear Search**   :  linear_search(void *a, void *key, int size, int(*cmp)(void *, void *, int))
    
