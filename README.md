@@ -10,7 +10,7 @@ A library containing various searching and sorting functions to search and sort 
 
 ### Install
    Keep all file in one directory.<br>
-   Run command  make<br>
+   In Linux Terminal run command    **make**<br>
    (This will automatically compile the files and make static library( _mylib.a ) )<br>
    
 ### Use 
