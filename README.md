@@ -28,6 +28,10 @@ A library containing various searching and sorting functions to search and sort 
    * **Binary Search**   :  binary_search(void *a, void *key, int starting_index, int ending_index, int(*cmp)(void *, void *, int));
    * **Linear Search**   :  linear_search(void *a, void *key, int size, int(*cmp)(void *, void *, int))
    
+## How To Compile ##
+   To compile the program in which the sorting or searching functions are used <br>
+   Run Command  :  &nbsp;&nbsp; ***gcc <filename> -L. -l_mylib***
+
 ## Description
 
 ### SORTING
