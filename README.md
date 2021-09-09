@@ -13,12 +13,18 @@ A library containing various searching and sorting functions to search and sort 
    In Linux Terminal run command    **make**<br>
    (This will automatically compile the files and make static library( _mylib.a ) )<br>
 - - - -   
-### Use 
+### How To Use Sorting Functions ? ###
    To use the sorting functions you have to write **comparator function** for the datatype you have to sort.
    
-   * **Merge sort** : merge_sort(void **)a, int left, int right, (void **)b, int(*cmp)(void *, void *);** 
+   * **Merge Sort**      :  merge_sort((void **)a, int starting_index, int ending_index, (void **)b, int(*cmp)(void *, void *));** 
+   * **Quick Sort**      :  q_sort((void **)a, int starting_index, int ending_index, int(*cmp)(void *, void *));**
+   * **Bubble Sort**     :  bubble_sort((void **)a, int size, int(*cmp)(void *, void *));**
+   * **Insertion Sort**  :  insertion_sort((void **)a, int size, int(*cmp)(void *, void *));**
+### How To Use Searching Functions ? ###
+   To use the sorting functions you have to write **comparator function** for the datatype you have to search.
+   * **Binary Search**   :  binary_search(void *a, void *key, int starting_index, int ending_index, int(*cmp)(void *, void *, int));
+   * **Linear Search**   :  linear_search(void *a, void *key, int size, int(*cmp)(void *, void *, int))
    
-
 ## Description
 
 ### SORTING
