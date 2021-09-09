@@ -6,6 +6,12 @@ A library containing various searching and sorting functions to search and sort 
 * To provide flexibilty to use sorting and searching algorithms in various projects and coding problems in c language.
 * To search and sort list of any datatype.
 
+## How To Install And Use Library
+
+### Install
+* Keep all file in one directory.
+* Run command  
+
 ## Description
 
 ### SORTING
@@ -51,7 +57,15 @@ Linear Search  | O(1) | O(n) | O(n) | O(1)
 Binary Search | O(1) | O(logn) | O(logn) | O(1)
 
 ## Specifications
-* **sort_search.h** is the library which contains the functions of various sorting and searching algorithms.
+* **_mylib.a** is the library which contains the functions of various sorting and searching algorithms.
+* **sort.h** is the header file.
+* **Makefile** is the file which will automatically compile the sorting and searching files and make a library (_mylib.a).
+* **qsort.c** file which contains the code of quick sort.
+* **bsort.c** file which contains the code of bubble sort.
+* **isort.c** file which contains the code of insertion sort.
+* **msort.c** file which contains the code of merge sort.
+* **lsearch.c** file which contains the code of linear search.
+* **bsearch.c** file which contains the code of binary search.
 
 ## Design
 * Used function pointers and void pointers to make code generic.
