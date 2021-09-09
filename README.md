@@ -30,7 +30,7 @@ A library containing various searching and sorting functions to search and sort 
    
 ## How To Compile ##
    To compile the program in which the sorting or searching functions are used <br>
-   Run Command  :  &nbsp;&nbsp; ***gcc <filename> -L. -l_mylib***
+   Run Command  :  &nbsp;&nbsp; **gcc _filename_ -L. -l_mylib**
 
 ## Description
 
