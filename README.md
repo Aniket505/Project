@@ -9,9 +9,9 @@ A library containing various searching and sorting functions to search and sort 
 ## How To Install And Use Library
 
 ### Install
-   Keep all file in one directory.
-   Run command  make
-   (This will automatically compile the files and make static library( _mylib.a ) )
+   Keep all file in one directory.<br>
+   Run command  make<br>
+   (This will automatically compile the files and make static library( _mylib.a ) )<br>
    
 ### Use 
    
