@@ -16,7 +16,7 @@ A library containing various searching and sorting functions to search and sort 
 ### Use 
    To use the sorting functions you have to write **comparator function** for the datatype you have to sort.
    
-   * **Merge sort** : **merge_sort(void **)a, int left, int right, (void **)b, int(*cmp)(void *, void *);** 
+   * **Merge sort** : merge_sort(void **)a, int left, int right, (void **)b, int(*cmp)(void *, void *);** 
    
 
 ## Description
