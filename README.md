@@ -3,7 +3,7 @@
 A library containing various searching and sorting functions to search and sort a list according to the given comparator function.
 
 ## GOALS
-* To provide flexibilty to use sorting and searching algorithms in various projects and coding problems in c language.
+* To provide flexibility to use sorting and searching algorithms in various projects and coding problems in c language.
 * To search and sort list of any datatype.
 
 ## How To Install And Use Library
